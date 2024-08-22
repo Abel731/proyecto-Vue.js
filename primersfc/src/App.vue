@@ -2,7 +2,9 @@
   <div class="wrapper-container">
     <h1>Mundo Anime</h1>
     <p>A tu favorito ponle una medalla</p>
+    
     <div id="wrapper">
+
       <div class="image-container">
         <img src="./assets/monogatari-series-koyomi-araragi-image-anime-deviantart-anime.jpg" alt="" class="image-overlay">
       </div>
@@ -121,8 +123,8 @@ export default {
         nombre: '',
         mensaje: ''
       },
-      submittedData1: [], // Array para almacenar los datos del formulario 1
-      submittedData2: []  // Array para almacenar los datos del formulario 2
+      submittedData1: [], 
+      submittedData2: []  
     };
   },
   methods: {
@@ -288,13 +290,13 @@ export default {
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 2px solid #000000; /* Borde alrededor de la tabla */
+  border: 2px solid #000000; 
 }
 
 th, td {
   padding: 10px;
   text-align: left;
-  border: 1px solid #000000; /* Bordes de las celdas */
+  border: 1px solid #000000; 
 }
 
 th {
@@ -304,65 +306,17 @@ th {
 
 .image-container {
   position: relative;
-  width: 150px; /* Tamaño igual al del producto-item */
-  height: 150px; /* Tamaño igual al del producto-item */
-  margin-bottom: 10px; /* Espacio entre la imagen y el primer producto-item */
+  width: 150px; 
+  height: 150px; 
+  margin-bottom: 10px; 
 }
 
 /* Imagen dentro del contenedor */
 .image-overlay {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+  object-fit: cover; 
 }
-/*   
-Lo que hice aquí es crear una interfaz de usuario utilizando Vue.js, donde se muestran imágenes de personajes de anime junto con detalles específicos y formularios para que los usuarios envíen información personal y sobre su anime favorito. A continuación explico cada parte del código:
 
-1. Estructura del template:
-Encabezado y Descripción:
-
-El componente comienza con un encabezado (<h1>Mundo Anime</h1>) y una breve descripción (<p>A tu favorito ponle una medalla</p>).
-Contenedor Principal (#wrapper):
-
-Dentro de este contenedor,  defini imágenes de personajes de anime y componentes personalizados llamados producto-item. Cada imagen está asociada a un producto-item que muestra el nombre y la descripción de un personaje de anime.
-
-image-container: Este es el contenedor para cada imagen de anime, y la clase image-overlay ajusta la imagen para que cubra todo el contenedor.
-
-producto-item: Este componente personalizado representa cada producto/anime con un nombre y una descripción.
-
-Formulario y Tablas:
-
-Formularios:
-Formulario de Datos Personales: Permite al usuario ingresar su nombre, nick en MyAnimeList, y correo electrónico.
-Formulario de Anime Favorito: Permite al usuario ingresar el nombre de su anime favorito y una breve sinopsis.
-Tablas:
-Tabla de Datos Personales: Muestra la información enviada desde el formulario de datos personales.
-Tabla de Anime Favorito: Muestra los animes favoritos enviados por el usuario.
-
-2. Script (Parte de la lógica):
-data: Define el estado del componente, incluyendo los modelos para almacenar los datos de los formularios (form1 y form2) y las listas para almacenar los datos enviados (submittedData1 y submittedData2).
-
-methods:
-
-submitForm1: Maneja el envío del formulario de datos personales. Añade los datos ingresados a la lista submittedData1 y luego limpia el formulario.
-submitForm2: Similar al anterior, pero para el formulario de anime favorito. Añade los datos ingresados a la lista submittedData2 y limpia el formulario.
-3. Estilos (style):
-Estilos Generales:
-
-wrapper-container: Centra todo el contenido en la pantalla, con un fondo gris claro y un padding de 20px.
-Marcas de Agua (::before y ::after):
-
-Añadí dos marcas de agua utilizando los pseudo-elementos ::before y ::after en el contenedor wrapper-container. Estas marcas de agua son imágenes semi-transparentes que se colocan en el fondo, detrás del contenido principal, y no interfieren con la interacción del usuario debido a la propiedad pointer-events: none.
-Estilos de Productos:
-
-Defini un contenedor flexible (#wrapper) para los productos, permitiendo que se dispongan en una fila, con espacio entre ellos (gap: 20px).
-Cada imagen tiene un contenedor (image-container) que ajusta la imagen para cubrir todo el espacio disponible.
-Estilos de Formulario y Tabla:
-
-container: Define un contenedor para los formularios y tablas, centrando y ajustando su tamaño.
-card: Estiliza los formularios con un fondo verde claro, bordes redondeados, y una sombra.
-Tablas: Se asegura que las tablas tengan un borde y las celdas estén bien definidas con bordes y padding.
-Resumen:
-He creado una interfaz que muestra productos relacionados con animes y permite al usuario interactuar con ella a través de formularios y tablas. Las imágenes de los personajes se muestran junto a sus detalles, y las marcas de agua mejoran el fondo visual. Usé una estructura modular con componentes de Vue.js para mantener el código organizado y reutilizable. */
 </style>
 
