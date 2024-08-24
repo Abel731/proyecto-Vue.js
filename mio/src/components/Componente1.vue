@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2 style="font-size:200%;">Opcion 1</h2>
-        <p style="font-size:160%;">Elige que le guste mas:</p>
+        <p style="font-size:180%;">Elige que le guste mas:</p>
         <label>
             <input type="radio" name="rbgFood"  /> 
             Manzana &#127822;
@@ -14,7 +14,7 @@
 
     <div>
         <h2 style="font-size:200%;">Opcion 2</h2>
-        <p style="font-size:160%;">Elige que le guste mas:</p>
+        <p style="font-size:180%;">Elige que le guste mas:</p>
         <label>
             <input type="radio" name="rbgFood"  /> 
             Auto &#128663;
@@ -27,7 +27,7 @@
 
     <div>
         <h2 style="font-size:200%;">Opcion 3</h2>
-        <p style="font-size:160%;">Elige que le guste mas:</p>
+        <p style="font-size:180%;">Elige que le guste mas:</p>
         <label>
             <input type="radio" name="rbgFood"  /> 
             Futbol &#9917;
@@ -44,7 +44,7 @@
 
     <div>
         <h2 style="font-size:200%;">Opcion 4</h2>
-        <p style="font-size:160%;">Elige que le guste mas:</p>
+        <p style="font-size:180%;">Elige que le guste mas:</p>
         <label>
             <input type="radio" name="rbgFood"  /> 
             Dormir &#128564;
