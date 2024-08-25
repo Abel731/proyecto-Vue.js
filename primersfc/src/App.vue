@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper-container">
     <h1>Mundo Anime</h1>
-    <p>A tu favorito ponle una medalla</p>
+    <p>Marca tu Favorito</p>
     
     <div id="wrapper">
 
